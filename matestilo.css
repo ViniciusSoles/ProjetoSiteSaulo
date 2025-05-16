@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 35px 0;
+}
+
+/* Lista da navbar */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Links da navbar */
+.nav-list > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list > li > a:hover {
+    background-color: #444;
+    color: #ffcc00;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1050px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card > h1{
+    font-size: 50px;
+    text-align: left;
+}
+
+
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card > p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+
