@@ -41,3 +41,35 @@ body {
     color: #ffcc00;
     border-radius: 4px;
 }
+
+.card {
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1050px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card > h1{
+    font-size: 50px;
+    text-align: left;
+}
+
+
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card > p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+
+
